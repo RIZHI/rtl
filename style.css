@@ -12,10 +12,12 @@ body {
 }
 
 .terminal {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 #hero {
@@ -23,6 +25,30 @@ body {
   line-height: 1.4;
   white-space: pre-wrap;
   text-align: center;
+}
+
+#products {
+  margin-top: 40px;
+  text-align: center;
+  max-width: 600px;
+}
+
+#products h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#products p {
+  margin-bottom: 20px;
+}
+
+#products a {
+  color: #00ff88;
+  text-decoration: underline;
+}
+
+#products a:hover {
+  color: #00cc66;
 }
 
 /* blinking cursor */
@@ -57,7 +83,6 @@ footer nav a {
 footer nav a:hover {
   text-decoration: underline;
 }
-
 
 @keyframes blink {
   50% {
