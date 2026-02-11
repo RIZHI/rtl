@@ -11,6 +11,16 @@ body {
   height: 100vh;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fffff0;
+  text-decoration: underline;
+}
+
 .terminal {
   min-height: 100vh;
   display: flex;
@@ -43,12 +53,12 @@ body {
 }
 
 #products a {
-  color: #00ff88;
+  color: #ffffff;
   text-decoration: underline;
 }
 
 #products a:hover {
-  color: #00cc66;
+  color: #fffff0;
 }
 
 /* blinking cursor */
@@ -75,7 +85,7 @@ footer {
 }
 
 footer nav a {
-  color: #00cc66;
+  color: #ffffff;
   margin-left: 16px;
   text-decoration: none;
 }
